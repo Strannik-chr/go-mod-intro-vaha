@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	github.com/Strannik-chr/go-packages-demo/config
+)
 
-func main()  {
-	fmt.Println("Привет,go!")
+func main() {
+	fmt.Println("Модуль работает")
+
 }
